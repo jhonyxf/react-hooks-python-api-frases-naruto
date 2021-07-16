@@ -14,8 +14,7 @@ export const Quotes = ({ quote, speaker, onUpdate }) => {
 
 Quotes.propTypes = {
   quote: string,
-  speaker: string,
-  onUpdate: func
+  speaker: string
 };
 
 const Wrapper = styled.div`
